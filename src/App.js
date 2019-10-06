@@ -5,7 +5,7 @@ import ContextMenu from './ContextMenu';
 const App = () => {
   return (
     <SafeAreaView style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <ContextMenu>
+      <ContextMenu title='Blue Box'>
         <View style={{width: 200, height: 200, backgroundColor: 'blue'}} />
       </ContextMenu>
     </SafeAreaView>

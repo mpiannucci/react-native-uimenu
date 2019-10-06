@@ -10,4 +10,6 @@
 
 @interface ContextMenuView : UIView<UIContextMenuInteractionDelegate>
 
+@property (nonatomic, copy) NSString* title;
+
 @end

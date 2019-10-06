@@ -44,7 +44,7 @@
       NSLog(@"HIT SHARE");
     }];
                              
-    return [UIMenu menuWithTitle:@"Context" children:@[shareAction]];
+    return [UIMenu menuWithTitle:self.title children:@[shareAction]];
 
   }];
 }

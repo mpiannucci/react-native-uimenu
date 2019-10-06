@@ -17,4 +17,6 @@ RCT_EXPORT_MODULE()
   return [[ContextMenuView alloc] init];
 }
 
+RCT_EXPORT_VIEW_PROPERTY(title, NSString)
+
 @end
