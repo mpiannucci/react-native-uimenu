@@ -41,7 +41,9 @@
   return [UIContextMenuConfiguration configurationWithIdentifier:nil previewProvider:nil actionProvider:^UIMenu * _Nullable(NSArray<UIMenuElement *> * _Nonnull suggestedActions) {
     // TODO: Create the menus with the callbacks
     UIAction* shareAction = [UIAction actionWithTitle:@"Share" image:[UIImage systemImageNamed:@"square.and.arrow.up"] identifier:nil handler:^(__kindof UIAction * _Nonnull action) {
-      NSLog(@"HIT SHARE");
+      if (self.onPress != nil) {
+        self.onPress(nil);
+      }
     }];
                              
     return [UIMenu menuWithTitle:self.title children:@[shareAction]];

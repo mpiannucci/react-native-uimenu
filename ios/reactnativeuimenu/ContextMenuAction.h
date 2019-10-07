@@ -7,12 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <React/RCTComponent.h>
 
 @interface ContextMenuAction : NSObject
 
 @property (nonatomic, copy) NSString* title;
 @property (nonatomic, copy) NSString* systemIcon;
-@property (nonatomic, copy) RCTBubblingEventBlock onPress;
 
 @end

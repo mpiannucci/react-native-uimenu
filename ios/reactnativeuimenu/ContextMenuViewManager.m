@@ -18,5 +18,6 @@ RCT_EXPORT_MODULE()
 }
 
 RCT_EXPORT_VIEW_PROPERTY(title, NSString)
+RCT_EXPORT_VIEW_PROPERTY(onPress, RCTBubblingEventBlock)
 
 @end

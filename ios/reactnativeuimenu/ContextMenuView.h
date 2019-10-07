@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <React/RCTComponent.h>
 
 @interface ContextMenuView : UIView<UIContextMenuInteractionDelegate>
 
 @property (nonatomic, copy) NSString* title;
+@property (nonatomic, copy) RCTBubblingEventBlock onPress;
 
 @end
