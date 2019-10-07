@@ -23,6 +23,7 @@
 		EBA0E99A234A93210034B074 /* ContextMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA0E999234A93210034B074 /* ContextMenuView.m */; };
 		EBA0E99D234A93A90034B074 /* ContextMenuViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA0E99C234A93A90034B074 /* ContextMenuViewManager.m */; };
 		EBA0E9A0234AB3550034B074 /* ContextMenuAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA0E99F234AB3550034B074 /* ContextMenuAction.m */; };
+		EBA0E9A4234B9FCC0034B074 /* RCTConvert+ContextMenuAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA0E9A3234B9FCC0034B074 /* RCTConvert+ContextMenuAction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,8 @@
 		EBA0E99C234A93A90034B074 /* ContextMenuViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ContextMenuViewManager.m; path = reactnativeuimenu/ContextMenuViewManager.m; sourceTree = "<group>"; };
 		EBA0E99E234AB3550034B074 /* ContextMenuAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ContextMenuAction.h; path = reactnativeuimenu/ContextMenuAction.h; sourceTree = "<group>"; };
 		EBA0E99F234AB3550034B074 /* ContextMenuAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ContextMenuAction.m; path = reactnativeuimenu/ContextMenuAction.m; sourceTree = "<group>"; };
+		EBA0E9A2234B9FCC0034B074 /* RCTConvert+ContextMenuAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "RCTConvert+ContextMenuAction.h"; path = "reactnativeuimenu/RCTConvert+ContextMenuAction.h"; sourceTree = "<group>"; };
+		EBA0E9A3234B9FCC0034B074 /* RCTConvert+ContextMenuAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "RCTConvert+ContextMenuAction.m"; path = "reactnativeuimenu/RCTConvert+ContextMenuAction.m"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F0F9CF1F1B093F6ACCF853E0 /* Pods-reactnativeuimenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactnativeuimenuTests.release.xcconfig"; path = "Target Support Files/Pods-reactnativeuimenuTests/Pods-reactnativeuimenuTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -147,6 +150,8 @@
 				EBA0E99C234A93A90034B074 /* ContextMenuViewManager.m */,
 				EBA0E99E234AB3550034B074 /* ContextMenuAction.h */,
 				EBA0E99F234AB3550034B074 /* ContextMenuAction.m */,
+				EBA0E9A2234B9FCC0034B074 /* RCTConvert+ContextMenuAction.h */,
+				EBA0E9A3234B9FCC0034B074 /* RCTConvert+ContextMenuAction.m */,
 			);
 			name = reactnativeuimenu;
 			sourceTree = "<group>";
@@ -543,6 +548,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA0E9A4234B9FCC0034B074 /* RCTConvert+ContextMenuAction.m in Sources */,
 				EBA0E99A234A93210034B074 /* ContextMenuView.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,

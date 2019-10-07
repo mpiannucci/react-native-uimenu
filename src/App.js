@@ -7,8 +7,17 @@ const App = () => {
 
   return (
     <SafeAreaView style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <ContextMenu title={color + ' Box'} onPress={() => {
-        setColor('red');
+      <ContextMenu title={'Set Color'} actions={[
+        {
+          title: 'blue',
+          systemIcon: color == 'blue' ? 'paintbrush.fill' : 'paintbrush',
+        },
+        {
+          title: 'red',
+          systemIcon: color == 'red' ? 'paintbrush.fill' : 'paintbrush'
+        }
+      ]} onPress={(event) => {
+        setColor(event.nativeEvent.name);
       }}>
         <View style={{width: 200, height: 200, backgroundColor: color}} />
       </ContextMenu>
