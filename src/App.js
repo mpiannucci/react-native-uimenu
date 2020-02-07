@@ -18,7 +18,7 @@ const App = () => {
         }
       ]} onPress={(event) => {
         setColor(event.nativeEvent.name);
-      }}>
+      }} onCancel={() => {console.warn('CANCELLED')}} >
         <View style={{width: 200, height: 200, backgroundColor: color}} />
       </ContextMenu>
     </SafeAreaView>
